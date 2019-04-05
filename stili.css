@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-image: url(fon.jpg);
+}
+div {
+    box-sizing: border-box;
+}
+.nav {
+    background: gray;
+    width: 20%;
+    font-size: 30px;
+    float: left; 
+    clear: both;
+    overflow: hidden;
+}
+.nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+} 
+.nav li {
+    display: inline-block;
+   
+}
+.nav .menu {
+    list-style: none outside none;
+    text-align: center;
+    padding: 0;
+}
+.pravo {
+    width: 75%; 
+    float: right;
+}
+h1 {
+    text-align:center;
+    color: rgb(91, 97, 116);
+    background: white;
+}
+.nav li:hover a {
+    background: rgb(108, 108, 138);
+}
+.down {
+    display: block;
+    clear: both;
+    background: gray;
+    color: white;
+    text-align:center;
+}
+.igrok {
+    float: left;
+    width: 33%;
+    background: white;
+    text-align: center;
+}
+.pravo ol {
+background: white;
+font-size: 22px;
+}
+.vens {
+    text-align: center;
+}
+@media (max-width: 720px) {
+    .nav {
+        font-size: 20px;
+        }
+        h2 {
+            font-size: 14px;
+        }
+        h3 {
+            font-size: 12px;
+        }
